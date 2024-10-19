@@ -1,0 +1,13 @@
+{
+  "id": "Umbraco.Markdowns.BlockList.DyanmicLabels",
+  "name": "Umbraco.Markdowns.BlockList.DyanmicLabels",
+  "allowPackageTelemetry": true,
+  "extensions": [
+    {
+      "name": "Umbraco.Markdowns.BlockList.DyanmicLabels.entrypoint",
+      "alias": "Umbraco.Markdowns.BlockList.DyanmicLabels.EntryPoint",
+      "type": "entryPoint",
+      "js": "/app_plugins/Umbraco.Markdowns.BlockList.DyanmicLabels/accessors-block-list.js"
+    }
+  ]
+}

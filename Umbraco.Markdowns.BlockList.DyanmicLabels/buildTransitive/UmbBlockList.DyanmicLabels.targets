@@ -1,0 +1,23 @@
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <UmbracoMarkdownsBlockListDyanmicLabelsContentFilesPath>$(MSBuildThisFileDirectory)..\App_Plugins\Umbraco.Markdowns.BlockList.DyanmicLabels\**\*.*</UmbracoMarkdownsBlockListDyanmicLabelsContentFilesPath>
+  </PropertyGroup>
+
+  <Target Name="CopyUmbracoMarkdownsBlockListDyanmicLabelsAssets" BeforeTargets="BeforeBuild">
+	  <Message Text="Copying Umbraco.Markdowns.BlockList.DyanmicLabels files: $(UmbracoMarkdownsBlockListDyanmicLabelsContentFilesPath) - #@(UmbracoMarkdownsBlockListDyanmicLabelsContentFiles->Count()) files" Importance="high" />
+
+	  <ItemGroup>
+      <UmbracoMarkdownsBlockListDyanmicLabelsContentFiles Include="$(UmbracoMarkdownsBlockListDyanmicLabelsContentFilesPath)" />
+    </ItemGroup>
+    <Message Text="Copying Umbraco.Markdowns.BlockList.DyanmicLabels files: $(UmbracoMarkdownsBlockListDyanmicLabelsContentFilesPath) - #@(UmbracoMarkdownsBlockListDyanmicLabelsContentFiles->Count()) files" Importance="high" />
+    <Copy SourceFiles="@(UmbracoMarkdownsBlockListDyanmicLabelsContentFiles)" DestinationFiles="@(UmbracoMarkdownsBlockListDyanmicLabelsContentFiles->'$(MSBuildProjectDirectory)\App_Plugins\Umbraco.Markdowns.BlockList.DyanmicLabels\%(RecursiveDir)%(Filename)%(Extension)')" SkipUnchangedFiles="true" />
+  </Target>
+
+  <Target Name="ClearUmbracoMarkdownsBlockListDyanmicLabelsAssets" BeforeTargets="Clean">
+    <ItemGroup>
+      <UmbracoMarkdownsBlockListDyanmicLabelsDir Include="$(MSBuildProjectDirectory)\App_Plugins\Umbraco.Markdowns.BlockList.DyanmicLabels\" />
+    </ItemGroup>
+    <Message Text="Clear old Umbraco.Markdowns.BlockList.DyanmicLabels data" Importance="high" />
+    <RemoveDir Directories="@(UmbracoMarkdownsBlockListDyanmicLabelsDir)" />
+  </Target>
+</Project>

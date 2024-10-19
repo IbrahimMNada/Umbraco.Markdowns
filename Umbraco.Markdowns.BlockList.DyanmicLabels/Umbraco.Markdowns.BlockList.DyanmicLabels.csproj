@@ -1,0 +1,47 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <ContentTargetFolders>.</ContentTargetFolders>
+  </PropertyGroup>
+
+  <PropertyGroup>
+    <PackageId>UmbBlockList.DyanmicLabels</PackageId>
+    <Product>UmbBlockList.DyanmicLabels</Product>
+    <Title>BlockList Dyanmic Labels</Title>
+    <Description>...</Description>
+    <PackageTags>umbraco;plugin;package;umbraco-marketplace;</PackageTags>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <Authors>Ibrahim M Nada</Authors>
+    <Version>1.1.9</Version>
+    <PackageIcon>Umbraco.Markdown.Accessors.BlockList.png</PackageIcon>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <PackageLicenseFile>LICENSE.txt</PackageLicenseFile>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Umbraco.Cms.Web.Website" Version="*" />
+    <PackageReference Include="Umbraco.Cms.Web.Common" Version="*" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="App_Plugins\Umbraco.Markdowns.BlockList.DyanmicLabels\**" ExcludeFromSingleFile="true" CopyToPublishDirectory="Always" />
+    <None Include="buildTransitive\**" Pack="true" PackagePath="buildTransitive" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="LICENSE.txt">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+    <None Update="README.md">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+    <None Update="Umbraco.Markdown.Accessors.BlockList.png">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
+</Project>
