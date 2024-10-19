@@ -18,6 +18,8 @@
     <PackageIcon>Umbraco.Markdown.Accessors.BlockList.png</PackageIcon>
     <PackageReadmeFile>README.md</PackageReadmeFile>
     <PackageLicenseFile>LICENSE.txt</PackageLicenseFile>
+    <RepositoryUrl>https://github.com/IbrahimMNada/Umbraco.Markdowns</RepositoryUrl>
+    <PackageProjectUrl>https://github.com/IbrahimMNada/Umbraco.Markdowns/tree/main/Umbraco.Markdowns.BlockList.DyanmicLabels#readme</PackageProjectUrl>
   </PropertyGroup>
 
   <ItemGroup>
