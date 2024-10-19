@@ -51,10 +51,15 @@ To install the package, you can use the Umbraco package manager or manually inst
 If your block contains a property called `title`, you can use `{>item.title}` as the label. This will dynamically set the label based on the `title` of each block item, making it easier to navigate and manage multiple entries.
 
 **Before:**
+![image](https://github.com/user-attachments/assets/21136f96-d587-4c35-90c6-9df1e9cfa952)
 
 
 **After:**
+![image](https://github.com/user-attachments/assets/5e9a3103-f372-453c-bf19-c130833af7be)
 
+
+**Configuration:**
+![image](https://github.com/user-attachments/assets/3584da88-1558-485d-a86b-d192677a8e97)
 
 ## Notes
 
