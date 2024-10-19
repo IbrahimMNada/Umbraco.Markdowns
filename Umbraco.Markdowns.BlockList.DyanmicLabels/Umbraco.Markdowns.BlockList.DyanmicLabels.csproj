@@ -10,11 +10,11 @@
     <PackageId>UmbBlockList.DyanmicLabels</PackageId>
     <Product>UmbBlockList.DyanmicLabels</Product>
     <Title>BlockList Dyanmic Labels</Title>
-    <Description>...</Description>
+    <Description>This feature enhances the Umbraco block list by allowing dynamic labeling of each block item using markdown syntax. Instead of static labels, users can define customizable labels that adapt based on the content, such as {&amp;gt;item.title}, making it easier to identify and manage multiple block entries. This improves usability and streamlines content management, enabling a more organized and intuitive user experience.</Description>
     <PackageTags>umbraco;plugin;package;umbraco-marketplace;</PackageTags>
     <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
     <Authors>Ibrahim M Nada</Authors>
-    <Version>1.1.9</Version>
+    <Version>1.2.0</Version>
     <PackageIcon>Umbraco.Markdown.Accessors.BlockList.png</PackageIcon>
     <PackageReadmeFile>README.md</PackageReadmeFile>
     <PackageLicenseFile>LICENSE.txt</PackageLicenseFile>
