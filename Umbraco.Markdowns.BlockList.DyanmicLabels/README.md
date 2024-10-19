@@ -15,12 +15,6 @@ The **Dynamic Block List Labeling** package for Umbraco enhances the default blo
 ```batch
 dotnet add package UmbBlockList.DyanmicLabels
 ```
-### Manual Installation
-
-1. Download the package file from the [release page](#).
-2. In the Umbraco backoffice, go to **Packages** > **Install Local Package**.
-3. Upload the package file and click **Install**.
-
 ## Usage
 
 ### Step 1: Configure the Block List
