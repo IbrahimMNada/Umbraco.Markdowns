@@ -13,7 +13,7 @@ The **Dynamic Block List Labeling** package for Umbraco enhances the default blo
 
 ## Installation
 ```batch
->dotnet add package UmbBlockList.DyanmicLabels
+dotnet add package UmbBlockList.DyanmicLabels
 ```
 ### Manual Installation
 
