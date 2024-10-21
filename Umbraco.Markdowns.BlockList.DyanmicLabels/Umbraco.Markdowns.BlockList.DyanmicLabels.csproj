@@ -33,6 +33,19 @@
   </ItemGroup>
 
   <ItemGroup>
+    <Compile Remove="src\Umbraco.Markdowns.BlockList.DyanmicLabels\**" />
+    <EmbeddedResource Remove="src\Umbraco.Markdowns.BlockList.DyanmicLabels\**" />
+    <None Remove="src\Umbraco.Markdowns.BlockList.DyanmicLabels\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="src\block-list-dyanmic-labels\public\umbraco-package.json">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>Always</CopyToPublishDirectory>
+    </Content>
+  </ItemGroup>
+
+  <ItemGroup>
     <None Update="LICENSE.txt">
       <Pack>True</Pack>
       <PackagePath>\</PackagePath>
