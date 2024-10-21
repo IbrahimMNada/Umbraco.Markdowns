@@ -65,7 +65,7 @@ Contributions are welcome! Please feel free to submit issues or pull requests to
 
 ## Support
 
-For any issues or questions, please open an issue on our [GitHub page](#).
+For any issues or questions, please open an issue on our [GitHub page](https://github.com/IbrahimMNada/Umbraco.Markdowns/issues).
 
 ## License
 
