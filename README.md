@@ -12,9 +12,17 @@ The **Dynamic Block List Labeling** package for Umbraco enhances the default blo
 - Compatible with existing Umbraco block list setups.
 
 ## Installation
+
+### Umbraco +15
 ```batch
 dotnet add package UmbBlockList.DyanmicLabels
 ```
+
+### Umbraco 14
+```batch
+dotnet add package UmbBlockList.DyanmicLabels --version 1.3.1
+```
+
 ## Usage
 
 ### Step 1: Configure the Block List
@@ -39,15 +47,15 @@ dotnet add package UmbBlockList.DyanmicLabels
 If your block contains a property called `title`, you can use `{>item.title}` as the label. This will dynamically set the label based on the `title` of each block item, making it easier to navigate and manage multiple entries.
 
 **Before:**
-![ufm-before](https://github.com/user-attachments/assets/6a989be4-8263-42c6-b013-6dcabdc5a9c5)
+![ufm-before](https://raw.githubusercontent.com/IbrahimMNada/Umbraco.Markdowns/refs/heads/main/Umbraco.Markdowns.BlockList.DyanmicLabels/images/378284841-6a989be4-8263-42c6-b013-6dcabdc5a9c5.png)
 
 
 **After:**
-![ufm-after](https://github.com/user-attachments/assets/e864e188-606d-4a3d-9fdd-89259a7fe66b)
+![ufm-after](https://raw.githubusercontent.com/IbrahimMNada/Umbraco.Markdowns/refs/heads/main/Umbraco.Markdowns.BlockList.DyanmicLabels/images/378284896-e864e188-606d-4a3d-9fdd-89259a7fe66b.png)
 
 
 **Configuration:**
-![ufm-config](https://github.com/user-attachments/assets/204ba948-a316-4589-8da0-9b74a13c7bd9)
+![ufm-config](https://raw.githubusercontent.com/IbrahimMNada/Umbraco.Markdowns/refs/heads/main/Umbraco.Markdowns.BlockList.DyanmicLabels/images/378284913-204ba948-a316-4589-8da0-9b74a13c7bd9.png)
 
 ## Notes
 
